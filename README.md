@@ -6,8 +6,6 @@ Ao carregar um programa, ele é lido no HD (ou outra mídia de armazenamento) e 
 
 
 # rom
-
-O termo memória ROM se refere a uma memória de armazenamento que permite apenas a leitura da informação e não de sua destruição, independente da presença ou não de uma fonte de energia que a alimente.
 ROM é uma sigla em inglês que se refere ao termo “Read Only Memory” ou “Memória de Apenas uma Leitura”. Trata-se de uma memória de semicondutor que facilita a conservação da informação que pode ser lida, mas que não pode ser destruída. Diferentemente da memória RAM, os dados contidos em uma memória ROM não são destruídos nem perdidos em caso de interrupção da energia elétrica, por isso, é chamada de “memória não volátil”.
 
 ... Artigo http://queconceito.com.br/memoria-rom
