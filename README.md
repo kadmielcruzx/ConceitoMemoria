@@ -11,3 +11,11 @@ ROM é uma sigla em inglês que se refere ao termo “Read Only Memory” ou “
 ... Artigo http://queconceito.com.br/memoria-rom
 
 Basicamente, essa é a função da memória ROM: oferecer dados apenas para leitura. Normalmente, a ROM é utilizada para armazenar firmwares, pequenos softwares que funcionam apenas no hardware para o qual foram desenvolvidos e que controlam as funções mais básicas do dispositivo.
+
+# swap
+Memória Swap é uma memória "virtual". Significa que ela não tem um suporte físico como a memória RAM. A memória virtual criada pelo sistema operacional, utilizando o espaço livre no disco rígido, de forma a complementar a memória RAM. A memória swap deverá ser uma memória sobresalente, em situações em que a memória RAM não é suficiente para armazenar dados de uma determinada aplicação.
+
+# memoria paginada
+A paginação permite que o programa possa ser espalhado por áreas não contíguas de memória. Com isso, o espaço de endereçamento lógico de um processo é dividido em páginas lógicas de tamanho fixo e a memória física é dividida em páginas com tamanho fixo, com tamanho igual ao da página lógica. Nisso, o programa é carregado página a página, cada página lógica ocupa uma página física e as páginas físicas não são necessariamente contíguas. O endereço lógico é inicialmente dividido em duas partes : um número de página lógica (usado como índice no acesso a tabela de páginas, de forma a obter o número da página física correspondente) e um deslocamento dentro da página.
+
+A transferência das páginas de processo podem ser transferidas para a memória por demanda, levando apenas o que é necessário para a execução do programa ou por paginação antecipada, onde o sistema tenta prever as páginas que serão necessárias à execução do programa.
